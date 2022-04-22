@@ -1,0 +1,76 @@
+*{
+  margin:0;
+  padding: 0;
+}
+body{
+  background-color: hsl(216, 12%, 8%);
+  font-size: 15px;
+  color: aliceblue;
+}
+.container{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card{
+  max-width: 300px;
+  background-color:hsl(213, 19%, 18%);
+  padding: 20px;
+  border-radius: 20px;
+}
+.card-header{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.card-body h2{
+  margin-bottom: 15px;
+}
+.card-body p {
+  margin-bottom: 15px;
+}
+
+.btn-container{
+    margin-bottom: 15px;
+}
+.btn-container button{
+  padding: 15px;
+  background-color:hsl(216, 12%, 8%);
+  color: white;
+  border-radius: 50%;
+ margin: 6px;
+  border:none;
+  height: 40px;
+}
+.btn-container button:hover{
+background: #fff;
+color:hsl(216, 12%, 8%);
+}
+.btn-container button:active {
+  background: hsl(25, 97%, 53%);
+  color: hsl(216, 12%, 8%);
+ 
+}
+.card-header{
+  background:hsl(216, 12%, 8%) ;
+  padding: 10px;
+  display: inline-block;
+  border-radius:20px ;
+}
+/* hover */
+.submit-btn{
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: hsl(25, 97%, 53%);
+  border: none;
+  color: aliceblue;
+}
+.submit-btn:hover{
+  background-color: hsl(216, 12%, 54%);
+  color:hsl(25, 97%, 53%);
+  
+}
+.hide{
+  display: none;
+}
